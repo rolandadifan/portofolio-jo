@@ -155,8 +155,31 @@
   }
 }
 
+#contact-splash .card {
+  background-color: whitesmoke !important;
+}
+
+#contact-splash .img-contact-splash {
+  border-radius: 50%;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-top: -50px;
+}
+
+#contact-splash .contact-splash-title {
+  margin: 100px;
+}
+
+#contact-splash .btn-splash {
+  padding: 20px;
+  margin-left: -80px;
+  margin-top: 90px;
+  height: 65px;
+}
+
 #about {
-  margin-top: 800px;
+  margin-top: 100px;
   margin-bottom: 75px;
 }
 
