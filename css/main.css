@@ -1,0 +1,201 @@
+#nav .nav-image {
+  border-radius: 50%;
+}
+
+#nav .nav-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#nav .bg-nav-custome {
+  background-color: #c4c4c4;
+}
+
+#nav .nav-list1 {
+  color: #ffffff;
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+#nav .nav-list1:hover {
+  text-decoration: underline;
+}
+
+#nav .nav-stic {
+  border: 1px solid;
+  border-color: #ffffff;
+  margin-right: 20px;
+}
+
+#home {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+#home .intro-name {
+  margin-top: 100px;
+  height: 200px;
+  width: 200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#51f4fe), to(rgba(255, 255, 255, 0))), #c84dbc;
+  background: linear-gradient(180deg, #51f4fe 0%, rgba(255, 255, 255, 0) 100%), #c84dbc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#home .intro-name .home-intro-name {
+  font-size: 30px;
+  padding-left: 25px;
+  padding-top: 70px;
+  width: 400px;
+}
+
+#home .intro-name .home-line {
+  height: 5px;
+  margin-left: 25px;
+  width: 370px;
+  border-radius: 2px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#af52f9), to(rgba(255, 255, 255, 0))), #faa2a2;
+  background: linear-gradient(180deg, #af52f9 0%, rgba(255, 255, 255, 0) 100%), #faa2a2;
+}
+
+#home .intro-name .home-intro-name2 {
+  font-size: 36px;
+  padding-left: 30px;
+  width: 400px;
+}
+
+#home .intro-profile {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+}
+
+#home .social-media-info {
+  width: 40px;
+  margin-left: 20px;
+}
+
+#home .social-media-info:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+@media screen and (min-width: 800px) {
+  #home .photo-profile {
+    width: 350px;
+    margin-top: 180px;
+    margin-left: 250px;
+  }
+}
+
+#project {
+  margin-top: 250px;
+}
+
+#project .project-1 {
+  margin-top: 50px;
+}
+
+#project .project-1 .logo-view-case {
+  width: 25px;
+}
+
+#project .project-1 .project-1-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#project .project-1 .project-card {
+  position: absolute;
+  width: 1300px;
+  height: 708px;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e0f1bd), to(rgba(255, 255, 255, 0))), #57e075;
+  background: linear-gradient(180deg, #e0f1bd 0%, rgba(255, 255, 255, 0) 100%), #57e075;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 800px) {
+  #project .project-1 .detail {
+    padding-top: 400px;
+  }
+}
+
+#project .project-1 .detail {
+  width: 400px;
+}
+
+#project .project-1 .detail .project-stic {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid;
+  border-color: #ffffff;
+  border-radius: 20px;
+  width: 108px;
+}
+
+#project .project-1 .project-image1 {
+  max-width: 100%;
+  width: 800px;
+}
+
+@media screen and (min-width: 800px) {
+  #project .modal-content {
+    width: 1000px;
+    margin-left: -300px;
+    margin-right: 300px;
+  }
+}
+
+#about {
+  margin-top: 800px;
+  margin-bottom: 75px;
+}
+
+#about .about-tittle {
+  font-family: Rhodium Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+}
+
+#about .tittle-about {
+  margin-top: -200px;
+}
+
+#about .image-about {
+  margin-top: 400px;
+}
+
+#about .about-img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+#about .about-card {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#contact {
+  margin-bottom: 75px;
+}
+
+#contact .card-contact {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=main.css.map */
